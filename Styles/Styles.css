@@ -1,0 +1,56 @@
+
+
+*{
+    padding: 0;
+    margin: 0;    
+    font-family: "Futura", sans-serif;
+}
+
+
+body{ 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: radial-gradient(circle, #da8f8f88 0%,   #47a6ff 100%); 
+    background-repeat: no-repeat;
+    background-size: auto; 
+}
+
+.center{ 
+    margin: auto; 
+    display: inline-block;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; 
+}
+
+.dialog{  
+    width: 500px;
+    height: 320px;
+    max-width: 80%;
+    background: #ffe884ab;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.title{ 
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px 10px;
+    text-transform: uppercase;
+    color: #df814a;
+}
+
+.description{ 
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal; 
+    padding: 50px 10px;
+    text-transform: initial;
+    color: #6f7e8a; 
+    vertical-align: middle; 
+    text-align: center; 
+}
